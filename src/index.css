@@ -1,0 +1,61 @@
+#overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+#overlay .play{
+    padding: 7em;
+}
+
+#overlay .disabled {
+    display: none;
+}
+
+#lyrics {
+    font-size: 6em;
+}
+
+#media {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: black;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#footer >p {
+    margin-right: 5px;
+}
+
+#control {
+    margin: 10px;
+    padding: 5px;
+    background: black;
+}
+
+#control > button {
+    margin-right: 5px;
+}
+
+#control > button:last-child {
+    margin-right: 0;
+}
+
+#back{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
